@@ -4,10 +4,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+<<<<<<< HEAD
      "dev": "node deb_tube.js"
+=======
+     "start": "nodemon deb_tube.js"
+>>>>>>> 408c1dd19aec000ab17ffae44b2283fc2d09b8da
   },
   "keywords": [],
-  "author": "",
+  "author": "Debottam Kar",
   "license": "ISC",
   "description": "",
   "dependencies": {
