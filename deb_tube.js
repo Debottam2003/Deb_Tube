@@ -66,6 +66,7 @@ app.post('/upload/done', (req, res) => {
 
 // Route to render home page
 app.get('/', async (req, res) => {
+    console.log("hi");
     let data = await dbmodel.find();
     res.render('deb_tube', { videos: data });
 });
@@ -84,6 +85,6 @@ app.get('/upload', (req, res) => {
 });
 
 // Start the server
-app.listen(3003, () => {
+app.listen(3003, '0.0.0.0',() => {
     console.log('Running on port 3003...');
 });

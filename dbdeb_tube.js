@@ -4,4 +4,5 @@ let schema = mongoose.Schema({
     title: String,
     video: String
 });
-module.exports = mongoose.model('videos',schema);
+let dbmodel = mongoose.model('videos',schema);
+module.exports = dbmodel;
